@@ -10,6 +10,7 @@ import {
 import Home from './Components/Home/Home';
 // import Navbar from './Components/Shared/Navbar/Navbar';
 import Nav from './Components/Shared/Navbar/Nav';
+import Footer from './Components/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
 
           </Route>
       </Switch>
+      <Footer />
       </Router>
   );
 }

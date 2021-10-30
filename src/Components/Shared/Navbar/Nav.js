@@ -3,7 +3,7 @@ import './Navbar.css';
 import { MenuItem } from './MenuItem';
 import { NavItem } from 'react-bootstrap';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { GrFormClose } from 'react-icons/gr';
+import { MdClose } from 'react-icons/md';
 
 const Nav = () => {
     const [click, setClick] = useState(false);
@@ -12,7 +12,7 @@ const Nav = () => {
     const [scrolled, setScrolled] = React.useState(false);
     const handleScroll = () => {
         const offset = window.scrollY;
-        if (offset > 200) {
+        if (offset > 80) {
             setScrolled(true);
         } else {
             setScrolled(false);
@@ -32,7 +32,7 @@ const Nav = () => {
         <nav className={navbarClasses.join(" ")}>
             <h4 className="logo">AlgoBind</h4>
             <div className="menu-icon" onClick={handleClick}>
-                <h4>{click ? <GrFormClose className="close" /> : <GiHamburgerMenu />}</h4>
+                <h4>{click ? <MdClose className="close" /> : <GiHamburgerMenu />}</h4>
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 {MenuItem.map((item, index) => {
