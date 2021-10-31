@@ -25,7 +25,7 @@ const socialIcon = [
 const Footer = () => {
     return (
         <section className="themeBg footer-area">
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
                         <h2>AlgoBind</h2>

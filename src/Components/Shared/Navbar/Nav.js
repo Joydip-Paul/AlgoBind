@@ -27,7 +27,6 @@ const Nav = () => {
         navbarClasses.push("scrolled");
     }
 
-
     return (
         <nav className={navbarClasses.join(" ")}>
             <h4 className="logo">AlgoBind</h4>

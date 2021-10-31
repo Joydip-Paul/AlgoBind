@@ -11,6 +11,7 @@ import Home from './Components/Home/Home';
 // import Navbar from './Components/Shared/Navbar/Navbar';
 import Nav from './Components/Shared/Navbar/Nav';
 import Footer from './Components/Shared/Footer/Footer';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -21,8 +22,8 @@ function App() {
           <Route path = "/about">
 
           </Route>
-          <Route path = "/contact">
-
+        <Route path="/contact">
+          <Contact />
           </Route>
           <Route path="/">
             <Home />

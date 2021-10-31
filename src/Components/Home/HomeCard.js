@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeCard = () => {
     return (
-        <div className="container-fluid">
+        <div className="container">
             <div className="row text-center">
                 <div className="col-md-4 border p-4">
                     <div className="card-content">

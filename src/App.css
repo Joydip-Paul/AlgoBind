@@ -50,3 +50,26 @@ body::-webkit-scrollbar-thumb {
     height: 100%;
     z-index: -1;
 }
+
+
+.themeBtn2{
+    background: none;
+    outline: none;
+    border: 2px solid #170748;
+    color: #161616;
+    padding: 10px 20px;
+    position: relative;
+    transition: .5s;
+    border-radius: 50px;
+}
+
+.themeBtn2:hover{
+    border: 2px solid #fff;
+    background: linear-gradient(90deg, #C92F71 0%,#170748 100%);
+    color: #fff;
+}
+
+.themeTitle{
+    text-transform: uppercase;
+    font-weight: bold;
+}
