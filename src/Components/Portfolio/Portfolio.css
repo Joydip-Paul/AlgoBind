@@ -50,9 +50,15 @@
 }
 
 
-.projects-card{
+.projects-card, .projects-card img{
     transition: 1s;
     position: relative;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.projects-card img:hover{
+  transform: translateY(-10px);
 }
 
 .project-content{

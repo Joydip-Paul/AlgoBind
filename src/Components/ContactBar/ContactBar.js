@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './ContactBar.css';
 
 const ContactBar = () => {
@@ -12,7 +13,7 @@ const ContactBar = () => {
                     </div>
                     <div className="my-auto col-md-4">
                         {/* <a href="">contact us</a> */}
-                        <button className = "">contact us</button>
+                        <Link to="/contact"><button className="">contact us</button></Link>
                     </div>
                 </div>
             </div>

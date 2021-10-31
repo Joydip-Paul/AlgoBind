@@ -2,16 +2,15 @@ import React from 'react';
 import Banner from '../Shared/Banner/Banner';
 import banner from '../../images/banner.jpg';
 
-const Contact = () => {
+const UIUxDesign = () => {
     return (
         <div>
             <Banner
                 bannerImg={banner}
-                bannerTitle="Contact"
+                bannerTitle="UI UX Design"
             />
-            <h1>Contact</h1>
         </div>
     );
 };
 
-export default Contact;
+export default UIUxDesign;

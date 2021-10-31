@@ -13,6 +13,9 @@ import Nav from './Components/Shared/Navbar/Nav';
 import Footer from './Components/Shared/Footer/Footer';
 import Contact from './Components/Contact/Contact';
 import GoTop from './Components/Shared/GoTop/GoTop';
+import MobileApp from './Components/MobileApp/MobileApp';
+import WebServices from './Components/WebServices/WebServices';
+import UIUxDesign from './Components/UIUxDesign/UIUxDesign';
 
 function App() {
   return (
@@ -20,22 +23,30 @@ function App() {
       {/* <Navbar /> */}
       <GoTop />
       <Nav />
-       <Switch>
-          <Route path="/about">
+      <Switch>
+        <Route path="/mobile-app">
+          <MobileApp />
+        </Route>
 
-          </Route>
         <Route path="/contact">
           <Contact />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-          <Route>
+        </Route>
 
-          </Route>
+        <Route path="/web-services">
+          <WebServices />
+        </Route>
+
+        <Route path="/ui-ux-design">
+          <UIUxDesign />
+        </Route>
+
+        <Route path="/">
+          <Home />
+        </Route>
+
       </Switch>
       <Footer />
-      </Router>
+    </Router>
   );
 }
 
