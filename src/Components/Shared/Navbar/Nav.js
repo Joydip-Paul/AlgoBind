@@ -4,11 +4,12 @@ import { MenuItem } from './MenuItem';
 import { NavItem } from 'react-bootstrap';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
-    
+
     const [scrolled, setScrolled] = React.useState(false);
     const handleScroll = () => {
         const offset = window.scrollY;
@@ -29,7 +30,9 @@ const Nav = () => {
 
     return (
         <nav className={navbarClasses.join(" ")}>
-            <h4 className="logo">AlgoBind</h4>
+            <Link to="/">
+                <h4 className="logo">AlgoBind</h4>
+            </Link>
             <div className="menu-icon" onClick={handleClick}>
                 <h4>{click ? <MdClose className="close" /> : <GiHamburgerMenu />}</h4>
             </div>

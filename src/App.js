@@ -12,14 +12,16 @@ import Home from './Components/Home/Home';
 import Nav from './Components/Shared/Navbar/Nav';
 import Footer from './Components/Shared/Footer/Footer';
 import Contact from './Components/Contact/Contact';
+import GoTop from './Components/Shared/GoTop/GoTop';
 
 function App() {
   return (
     <Router>
       {/* <Navbar /> */}
+      <GoTop />
       <Nav />
        <Switch>
-          <Route path = "/about">
+          <Route path="/about">
 
           </Route>
         <Route path="/contact">

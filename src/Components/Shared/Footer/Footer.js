@@ -25,8 +25,8 @@ const socialIcon = [
 const Footer = () => {
     return (
         <section className="themeBg footer-area">
-            <div className="container">
-                <div className="row">
+            <div className="container-fluid">
+                <div className="row mx-4">
                     <div className="col-md-6 col-sm-12">
                         <h2>AlgoBind</h2>
                         <p className = "w-75">React Navbar Menu in this beginner React JS project tutorial. We will make a navigation menu that slides ou</p>
@@ -57,7 +57,7 @@ const Footer = () => {
 
                 </div>
 
-                <div className="sub-footer pt-5">
+                <div className="sub-footer pt-5 mx-4">
                     <p>copyright &copy;2021 algobind</p>
                     <p className = "privacy-title mx-4">Terms and Condition. privacy policy.</p>
                 </div>

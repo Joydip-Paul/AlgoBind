@@ -8,11 +8,10 @@
 
 body::-webkit-scrollbar {
   width: 5px;
-  height: 100vh;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: linear-gradient(90deg, #C92F71 0%,#170748 100%);
+  background-color: #170748;
   outline: none;
 }
 

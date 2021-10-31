@@ -1,0 +1,39 @@
+
+.subFooter{
+  padding: 3rem 1rem;
+  /* position: relative;
+  display: flex;
+  justify-content: space-between; */
+  color: #fff;
+}
+
+.subFooter button{
+  outline: none;
+  border: none;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  transition: .5s;
+  border-radius: 5px;
+  /* width: 100%; */
+  float: right;
+}
+
+.subFooter button:hover{
+  background: #fff;
+  color: #161616;
+}
+
+@media only screen and (max-width: 768px) {
+  .subFooter{
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+}
+.subFooter button{
+  margin-top: 1rem;
+  float: none;
+}
+}

@@ -63,7 +63,7 @@
 }
 }
 
-/* CardBox */
+/* CardBox =========================*/
 .CardBox{
     text-align: center;
     background-color: #fff;
@@ -103,4 +103,27 @@
 .CardBox:hover::before{
     height: 100%;
 }
-/* CardBox */
+/* CardBox =========================*/
+
+
+/* Focus =========================*/
+.focus-content{
+    margin: auto;
+}
+.focus-content small{
+    font-size: 1.2rem;
+}
+
+.focus-content ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.focus-content ul li{
+    margin: .8rem 0;
+}
+
+
+
+/* Focus =========================*/

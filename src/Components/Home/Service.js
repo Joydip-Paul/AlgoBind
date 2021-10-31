@@ -12,7 +12,7 @@ const Service = () => {
     return (
         <div className="container">
             <div className="row g-5 py-5">
-                <h2 className= "themeTitle">Our Services</h2>
+                <h2 className= "themeTitle text-center">Our Services</h2>
                 {
                     Data.map((item) => (
                         
