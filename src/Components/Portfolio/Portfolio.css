@@ -78,5 +78,5 @@
 }
 
 .projects-card:hover .project-content{
-    opacity: 1;
+    /* opacity: 1; */
 }

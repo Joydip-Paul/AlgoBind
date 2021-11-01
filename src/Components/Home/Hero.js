@@ -1,16 +1,22 @@
 import React from 'react';
 import './Home.css';
 import HomeHero from '../../images/hero.jpg';
+import Fade from 'react-reveal/Fade';
+import Flash from 'react-reveal/Flash';
 
 const Hero = () => {
     return (
-        <div className = "HomeHero">
+        <div className="HomeHero">
             {/* <img src={HomeHero} alt="" /> */}
             <div className="hero-content">
-                <h1>High Quality IT Service</h1>
+                <Fade top>
+                    <h1>High Quality IT Service</h1>
+                </Fade>
                 <h4>For the budget Conscious</h4>
-                <p>Learn how to create a React Navbar Menu in this beginner React JS project tutorial. We will make a navigation menu that slides out into a sidebar and utilities a hamburger menu icon that you can toggle on and off to open the menu. The navbar will be a navbar component and will include all the props and functions.</p>
-                <button className= "themeBtn">Our Projects</button>
+                <Flash>
+                    {/* <p>Learn how to create a React Navbar Menu in this beginner React JS project tutorial.</p> */}
+                </Flash>
+                <button className="themeBtn">Our Projects</button>
             </div>
         </div>
     );

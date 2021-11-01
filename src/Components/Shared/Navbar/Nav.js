@@ -30,9 +30,9 @@ const Nav = () => {
 
     return (
         <nav className={navbarClasses.join(" ")}>
-            <Link to="/">
-                <h4 className="logo">AlgoBind</h4>
-            </Link>
+            
+                <h4 className="logo">Algobind</h4>
+            
             <div className="menu-icon" onClick={handleClick}>
                 <h4>{click ? <MdClose className="close" /> : <GiHamburgerMenu />}</h4>
             </div>

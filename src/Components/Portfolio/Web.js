@@ -6,15 +6,16 @@ const WebData = [
     { img: mobile1, title: "Joydip App" },
     { img: mobile1, title: "Joydip App" },
     { img: mobile1, title: "Joydip App" },
+    { img: mobile1, title: "Joydip App" },
 ]
 
 const Web = () => {
     return (
         <div className="container">
-            <div className="row g-4 pt-5">
+            <div className="row g-4 pt-5 justify-content-center">
                 {
                     WebData.map((web) => (
-                        <div className="col-md-6" key={web.title}>
+                        <div className="col-md-4" key={web.title}>
                             <div className="projects-card">
                                 <img src={web.img} alt="" className="w-100" />
                                 <div className="project-content">

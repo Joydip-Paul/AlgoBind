@@ -15,8 +15,8 @@ export const MenuItem = [
         cName: "nav-links"
     },
     {
-        title: "Ui/Ux Design",
-        url: "/ui-ux-design",
+        title: "Academy",
+        url: "/academy",
         cName: "nav-links"
     },
     {

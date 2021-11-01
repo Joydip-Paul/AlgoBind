@@ -36,7 +36,7 @@ function App() {
           <WebServices />
         </Route>
 
-        <Route path="/ui-ux-design">
+        <Route path="/academy">
           <UIUxDesign />
         </Route>
 

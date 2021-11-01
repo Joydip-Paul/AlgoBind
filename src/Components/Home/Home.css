@@ -27,7 +27,7 @@
 
 .hero-content h1{
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: 300;
     text-transform: uppercase;
 }
 
@@ -75,11 +75,13 @@
 }
 
 .CardBox h2{
-    font-weight: 600;
+    font-weight: 500;
+    color: #414141;
 }
 
 .CardBox small{
-    font-size: 5rem;
+    font-size: 3rem;
+    color: #C92F71;
 }
 
 .CardBox:hover{
