@@ -18,7 +18,7 @@ const Hero = () => {
                     {/* <p>Learn how to create a React Navbar Menu in this beginner React JS project tutorial.</p> */}
                 </Flash>
 
-                <a href="#port" className="themeBtn text-decoration-none">Our Projects</a>
+                <a href="#mobile" className="themeBtn text-decoration-none">Our Projects</a>
                 {/* <Link to="/portfolio"><button className="themeBtn">Our Projects</button></Link> */}
             </div>
         </div>

@@ -10,11 +10,11 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: #170748;
+    background-color: #ddd;
     width: 100%;
     text-align: center;
     padding: 1rem;
-    color: #fff;
+    color: #161616;
 }
 
 .academy-content h2{

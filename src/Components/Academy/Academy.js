@@ -1,6 +1,6 @@
 import React from 'react';
 import './Academy.css';
-import academy from '../../images/academy.png';
+import academy from '../../images/aca.jpg';
 import Fade from 'react-reveal/Fade';
 
 const Academy = () => {

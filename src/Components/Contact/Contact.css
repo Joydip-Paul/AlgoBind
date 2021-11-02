@@ -10,6 +10,7 @@
 
 .submitBtn {
   padding: 10px 25px;
+  background-color: #5f5f5f !important;
   border: none;
   color: #fff;
   border-radius: 5px;
@@ -17,7 +18,7 @@
   transition: 0.3s linear;
 }
 .submitBtn:hover {
-  background: #111;
+  background: #161616 !important;
   color: #fff;
 }
 
@@ -39,4 +40,12 @@
     .single-contact p{
     font-size: 1.2rem;
 }
+}
+
+.success-card{
+  background-color: #0E2A25;
+  color: #a1aeb7;
+  font-size: 1.5rem;
+  padding: 2rem;
+  font-weight: bold;
 }
