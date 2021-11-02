@@ -10,9 +10,9 @@ const footerCol1 = [
 
 const footerCol2 = [
     { link: "Mobile App" ,  url: "/about-us" },
-    { link: "WEb Services" ,  url: "/about-us" },
+    { link: "Web Services" ,  url: "/about-us" },
     { link: "Ui/Ux Design" ,  url: "/about-us" },
-    { link: "Graphics Design" ,  url: "/about-us" }
+    { link: "Academy", url: "/about-us" },
 ]
 
 const socialIcon = [
@@ -29,8 +29,13 @@ const Footer = () => {
                 <div className="row mx-4">
                     <div className="col-md-6 col-sm-12">
                         <h2>AlgoBind</h2>
-                        <p className = "w-75">React Navbar Menu in this beginner React JS project tutorial. We will make a navigation menu that slides ou</p>
-                        <div className = "pb-5">
+                        <p className="w-75">React Navbar Menu in this beginner React JS project tutorial. We will make a navigation menu that slides ou</p> <br/>
+
+                        <div className = "address">
+                            <p>Office: Sylhet, Bangladesh</p>
+                            <p>Call us: +8801712345678</p>
+                        </div>
+                        <div className = "pb-5 icon">
                             {socialIcon.map((item) => (
                                 <a href="#" className="social-icon">{item.icon}</a>
                             ))}
@@ -59,7 +64,6 @@ const Footer = () => {
 
                 <div className="sub-footer pt-5 mx-4">
                     <p>copyright &copy;2021 algobind</p>
-                    <p className = "privacy-title mx-4">Terms and Condition. privacy policy.</p>
                 </div>
 
             </div>

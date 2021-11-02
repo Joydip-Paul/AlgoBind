@@ -11,7 +11,7 @@ const ContactBar = () => {
                 <div className="row subFooter">
                     <Fade left>
                         <div className="col-md-8">
-                            <h3 className="my-auto themeTitle mb-2">Call To Action</h3>
+                            <h3 className="my-auto text-uppercase mb-2">Call To Action</h3>
                             <p className="w-7">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         </div>
                     </Fade>

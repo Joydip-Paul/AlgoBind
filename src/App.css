@@ -31,6 +31,7 @@ body::-webkit-scrollbar-thumb {
     padding: 10px 20px;
     position: relative;
     transition: .5s;
+    border-radius: 25px;
 }
 
 .themeBtn:hover{
@@ -47,6 +48,7 @@ body::-webkit-scrollbar-thumb {
     background-color: #fff;
     transition: .5s;
     z-index: 1;
+    border-radius: 25px;
 }
 
 .themeBtn:hover::before{
@@ -76,4 +78,5 @@ body::-webkit-scrollbar-thumb {
 .themeTitle{
     text-transform: uppercase;
     font-weight: bold;
+    color: #2a1370;
 }

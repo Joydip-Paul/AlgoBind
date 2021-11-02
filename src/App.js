@@ -16,6 +16,7 @@ import GoTop from './Components/Shared/GoTop/GoTop';
 import MobileApp from './Components/MobileApp/MobileApp';
 import WebServices from './Components/WebServices/WebServices';
 import UIUxDesign from './Components/UIUxDesign/UIUxDesign';
+import Portfolio from './Components/Portfolio/Portfolio';
 
 function App() {
   return (
@@ -28,9 +29,9 @@ function App() {
           <MobileApp />
         </Route>
 
-        <Route path="/contact">
+        {/* <Route path="/contact">
           <Contact />
-        </Route>
+        </Route> */}
 
         <Route path="/web-services">
           <WebServices />

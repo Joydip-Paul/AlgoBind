@@ -12,25 +12,27 @@ const MobileData = [
 
 const Mobile = () => {
     return (
-        <div className="container">
-            <div className="row g-4 pt-5 d-flex justify-content-center">
-                {
-                    MobileData.map((mobile) => (
-                        <Fade bottom>
-                            <div className="col-md-6" key={mobile.title}>
-                                <div className="projects-card">
-                                    <img src={mobile.img} alt="" className="w-100" />
-                                    <div className="project-content">
-                                        <h2>{mobile.title}</h2>
-                                        <p>Okay Bye</p>
+        <section id= "portfolio">
+            <div className="container">
+                <div className="row g-4 pt-5 d-flex justify-content-center">
+                    {
+                        MobileData.map((mobile) => (
+                            <Fade bottom>
+                                <div className="col-md-6" key={mobile.title}>
+                                    <div className="projects-card">
+                                        <img src={mobile.img} alt="" className="w-100" />
+                                        <div className="project-content">
+                                            <h2>{mobile.title}</h2>
+                                            <p>Okay Bye</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </Fade>
-                    ))
-                }
+                            </Fade>
+                        ))
+                    }
+                </div>
             </div>
-        </div>
+        </section>
     );
 };
 

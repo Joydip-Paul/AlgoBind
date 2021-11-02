@@ -1,0 +1,28 @@
+.single-academy{
+    position: relative;
+}
+
+.single-academy img{
+    width: 100%;
+}
+
+.academy-content{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #170748;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+}
+
+.academy-content h2{
+        font-size: 2rem;
+    }
+
+@media screen and (max-width: 992px){
+    .academy-content h2{
+        font-size: 1rem;
+    }
+}

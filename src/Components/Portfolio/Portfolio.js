@@ -10,11 +10,11 @@ import Flash from 'react-reveal/Flash';
 
 const Portfolio = () => {
     return (
-        <section>
+        <section id="port">
             <div className="container py-5">
                 <div className="text-center">
                     <Fade top>
-                        <h2 className="themeTitle">OUR PORTFOLIO</h2>
+                        <h2 className="themeTitle">PORTFOLIO</h2>
                     </Fade>
                     <Flash>
                         <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>

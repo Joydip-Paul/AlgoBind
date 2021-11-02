@@ -1,4 +1,6 @@
 import React from 'react';
+import Academy from '../Academy/Academy';
+import Contact from '../Contact/Contact';
 import ContactBar from '../ContactBar/ContactBar';
 import Portfolio from '../Portfolio/Portfolio';
 import Focus from './Focus';
@@ -12,6 +14,8 @@ const Home = () => {
             <Focus />
             <Service />
             <ContactBar />
+            <Contact />
+            <Academy />
             <Portfolio />
         </div>
     );

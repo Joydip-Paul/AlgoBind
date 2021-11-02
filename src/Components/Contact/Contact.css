@@ -1,0 +1,42 @@
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid rgb(192, 191, 191);
+  border-radius: 5px;
+  background: #eee;
+  color: rgb(88, 87, 87);
+  outline: none;
+}
+
+.submitBtn {
+  padding: 10px 25px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: 0.3s linear;
+}
+.submitBtn:hover {
+  background: #111;
+  color: #fff;
+}
+
+.Contact-area{
+    
+}
+
+.single-contact{
+     background-color: #eee;
+     padding: 4rem;
+     border-radius: 5px;
+}
+
+.single-contact p{
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .single-contact p{
+    font-size: 1.2rem;
+}
+}
