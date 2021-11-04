@@ -52,7 +52,7 @@ const Contact = () => {
 
                         <div className="Contact-area">
                             <div className="single-contact">
-                                <p>Phone: 01712345678</p>
+                                <p>Phone: +8801710348557</p>
 
                                 <p>Address: Sylhet, Bangladesh</p>
                             </div>

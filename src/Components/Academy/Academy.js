@@ -17,7 +17,7 @@ const Academy = () => {
                                     <h2>Android Development</h2>
                                     <div>
                                         <p>Type: Beginner to Intermediate</p>
-                                        <p>Tell: 01759696957</p>
+                                        <p>Tell: +8801710348557</p>
                                     </div>
                                 </div>
                             </div>
@@ -31,7 +31,7 @@ const Academy = () => {
                                     <h2>Flutter Development</h2>
                                     <div>
                                         <p>Type: Beginner to Intermediate</p>
-                                        <p>Tell: 01759696957</p>
+                                        <p>Tell: +8801710348557</p>
                                     </div>
                                 </div>
                             </div>

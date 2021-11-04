@@ -33,7 +33,7 @@ const Footer = () => {
 
                         <div className = "address">
                             <p>Office: Sylhet, Bangladesh</p>
-                            <p>Call us: +8801712345678</p>
+                            <p>Call us: +8801710348557</p>
                         </div>
                         <div className = "pb-5 icon">
                             {socialIcon.map((item) => (
