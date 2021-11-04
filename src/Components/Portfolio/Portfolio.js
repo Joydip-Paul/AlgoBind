@@ -17,7 +17,7 @@ const Portfolio = () => {
                         <h2 className="themeTitle">PORTFOLIO</h2>
                     </Fade>
                     <Flash>
-                        <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+                        <p>The tech industry is one of the leading sectors that is growing at the fastest pace. As per statistics, apps are expected to generate $189 Billion US dollars in revenue by 2021. Here few of our works.</p>
                     </Flash>
                 </div>
 

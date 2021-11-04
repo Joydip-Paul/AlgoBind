@@ -15,7 +15,10 @@ const Academy = () => {
                                 <img src={academy} alt="" />
                                 <div className="academy-content">
                                     <h2>Android Development</h2>
-                                    <p>Type: Beginner to Intermediate</p>
+                                    <div>
+                                        <p>Type: Beginner to Intermediate</p>
+                                        <p>Tell: 01759696957</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -25,8 +28,11 @@ const Academy = () => {
                             <div className="single-academy">
                                 <img src={academy} alt="" />
                                 <div className="academy-content">
-                                    <h2>Android Development</h2>
-                                    <p>Type: Beginner to Intermediate</p>
+                                    <h2>Flutter Development</h2>
+                                    <div>
+                                        <p>Type: Beginner to Intermediate</p>
+                                        <p>Tell: 01759696957</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

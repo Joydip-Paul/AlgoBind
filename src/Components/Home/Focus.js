@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import './Home.css';
-import computer from '../../images/computerNew.png';
+import computer from '../../images/macBook.png';
 import Fade from 'react-reveal/Fade';
 import Flash from 'react-reveal/Flash';
 
@@ -19,7 +19,7 @@ const Focus = () => {
                     <div className="col-md-6  pt-5 focus-content">
                         <small> <i>Our Major focus on</i> </small>
                         <h3 className="themeTitle py-3">Software Development</h3>
-                        <p>We go above and Beyond to making your business ready for Industry Revolution</p>
+                        <p>We go above and Beyond to making your ideas ready for Industry Revolution</p>
                         <ul>
                             <li><BsFillArrowRightCircleFill /> We belive in quality feature rather than extra features.</li>
                             <li><BsFillArrowRightCircleFill /> High-quality IT Services For the Budget Conscious.</li>

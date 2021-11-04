@@ -8,10 +8,10 @@ import './Home.css';
 import Fade from 'react-reveal/Fade';
 import Flash from 'react-reveal/Flash';
 const Data = [
-    { title: "Android Development", desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.", icon: <AiOutlineAndroid />, link: "/contact" },
-    { title: "Web Devlopment", desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.", icon: <GiSpiderWeb />, link: "" },
-    { title: "IOS Development", desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.", icon: <GrAppleAppStore />, link: "" },
-    { title: "Academy", desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.", icon: <GiPencilRuler />, link: "" },
+    { title: "Android Development", desc: "We create Mobile Apps, polished and functional websites and software products for startups, agencies and enterprises.", icon: <AiOutlineAndroid />, link: "/contact" },
+    { title: "Web Devlopment", desc: "Our skilled and dedicated web development team understands your needs and leverage the dynamism of modern web frameworks to create business valued web applications..", icon: <GiSpiderWeb />, link: "#contact" },
+    { title: "Flutter Development", desc: "Our expertise in custom mobile app development gives our clients the opportunity to pack incredible functionality into their customer’s hands.", icon: <GrAppleAppStore />, link: "" },
+    { title: "Academy", desc: "With AlgoBind Academy, teachers can identify gaps in their students’ understanding, tailor instruction, and meet the needs of every student and solve their problems.", icon: <GiPencilRuler />, link: "" },
 ]
 
 const Service = () => {
@@ -30,7 +30,7 @@ const Service = () => {
                                         <h2>{item.title}</h2>
                                         <p>{item.desc}</p>
                                         <Flash>
-                                            <a href={item.link} className="themeBtn2 text-decoration-none">book now</a>
+                                            <a href="#contact" className="themeBtn2 text-decoration-none">book now</a>
                                         </Flash>
                                     </div>
                                 </div>

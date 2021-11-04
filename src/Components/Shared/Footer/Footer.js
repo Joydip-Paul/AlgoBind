@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className="row mx-4">
                     <div className="col-md-6 col-sm-12">
                         <h2>AlgoBind</h2>
-                        <p className="w-75">React Navbar Menu in this beginner React JS project tutorial. We will make a navigation menu that slides ou</p> <br/>
+                        <p className="w-75">We help you to create diverse and complex software solutions for your needs and implement and create custom software solutions from scratch.</p> <br/>
 
                         <div className = "address">
                             <p>Office: Sylhet, Bangladesh</p>

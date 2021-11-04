@@ -7,7 +7,7 @@
   color: #fff;
 }
 
-.subFooter button{
+.subFooter a{
   outline: none;
   border: none;
   background: none;
@@ -18,9 +18,10 @@
   border-radius: 5px;
   /* width: 100%; */
   float: right;
+  text-decoration: none;
 }
 
-.subFooter button:hover{
+.subFooter a:hover{
   background: #fff;
   color: #161616;
 }
