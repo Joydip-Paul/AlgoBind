@@ -1,7 +1,9 @@
 import React from 'react';
 import './Academy.css';
-import academy from '../../images/aca.jpg';
 import Fade from 'react-reveal/Fade';
+
+import Android from '../../images/AndroidNew.png';
+import Flutter from '../../images/Flutter.png';
 
 const Academy = () => {
     return (
@@ -12,7 +14,7 @@ const Academy = () => {
                     <Fade left>
                         <div className="col-md-6">
                             <div className="single-academy">
-                                <img src={academy} alt="" />
+                                <img src={Android} alt="" />
                                 <div className="academy-content">
                                     <h2>Android Development</h2>
                                     <div>
@@ -26,7 +28,7 @@ const Academy = () => {
                     <Fade right>
                         <div className="col-md-6">
                             <div className="single-academy">
-                                <img src={academy} alt="" />
+                                <img src={Flutter} alt="" />
                                 <div className="academy-content">
                                     <h2>Flutter Development</h2>
                                     <div>

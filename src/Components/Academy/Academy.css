@@ -1,9 +1,12 @@
 .single-academy{
     position: relative;
+    /* background-color: red; */
 }
 
 .single-academy img{
     width: 100%;
+    padding: 0 0 9rem 0;
+      position: relative;
 }
 
 .academy-content{
@@ -13,7 +16,7 @@
     background-color: #ddd;
     width: 100%;
     text-align: center;
-    padding: 1rem;
+    padding: .5rem;
     color: #161616;
 }
 
@@ -25,4 +28,7 @@
     .academy-content h2{
         font-size: 1rem;
     }
+    .single-academy img{
+    padding: 0 0 7.5rem 0;
+}
 }

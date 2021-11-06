@@ -1,7 +1,7 @@
 {
   "name": "algobind",
   "version": "0.1.0",
-  "homepage": "algobind.com",
+  "homepage": "http://algobind.com",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.2.4",
