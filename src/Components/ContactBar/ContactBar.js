@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './ContactBar.css';
 import Fade from 'react-reveal/Fade';
-import Flash from 'react-reveal/Flash';
 
 const ContactBar = () => {
     return (

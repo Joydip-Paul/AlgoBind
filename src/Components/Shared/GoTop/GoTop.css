@@ -20,3 +20,13 @@
     color: #ffffff;
     background: #170748;
 }
+
+@media screen and (max-width: 960px){
+    .back-to-top .top {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    font-size: 1rem;
+    width: 50px;
+    height: 50px;
+}
+}

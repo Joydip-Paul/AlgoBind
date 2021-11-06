@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Varela+Round&display=swap');
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+        box-sizing: border-box;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -70,9 +70,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .themeBtn2:hover{
-    /* border: 2px solid #fff; */
-    /* background: linear-gradient(90deg, #C92F71 0%,#170748 100%); */
-    /* background-color: #eee; */
     color: #161616;
 }
 

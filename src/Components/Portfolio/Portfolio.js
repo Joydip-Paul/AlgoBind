@@ -14,7 +14,7 @@ const Portfolio = () => {
             <div className="container py-5">
                 <div className="text-center">
                     <Fade top>
-                        <h2 className="themeTitle">PORTFOLIO</h2>
+                        <h2 className="themeTitle pt-5">PORTFOLIO</h2>
                     </Fade>
                     <Flash>
                         <p>The tech industry is one of the leading sectors that is growing at the fastest pace. As per statistics, apps are expected to generate $189 Billion US dollars in revenue by 2021. Here few of our works.</p>

@@ -24,6 +24,15 @@
         font-size: 2rem;
     }
 
+    .call{
+        color: #161616;
+        text-decoration: none;
+    }
+
+    .call:hover{
+        color: #111;
+    }
+
 @media screen and (max-width: 992px){
     .academy-content h2{
         font-size: 1rem;

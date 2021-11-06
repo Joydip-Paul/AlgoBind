@@ -3,7 +3,6 @@ import mobile1 from '../../images/android.jpg';
 import mobile2 from '../../images/android2.jpg';
 import './Portfolio.css';
 import Fade from 'react-reveal/Fade';
-import Flash from 'react-reveal/Flash';
 
 const MobileData = [
     { img: mobile1, title: "Joydip App" },

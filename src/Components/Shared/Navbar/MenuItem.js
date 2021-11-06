@@ -25,3 +25,6 @@ export const MenuItem = [
         cName: "nav-links"
     },
 ]
+
+// If you add more object then go to navbar css file and increase grid template column
+// grid - template - columns: repeat(5, auto);

@@ -2,17 +2,16 @@ import React from 'react';
 import './Footer.css';
 import { AiFillGithub, AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiFillTwitterSquare, AiFillSkype, AiFillBehanceSquare } from 'react-icons/ai';
 const footerCol1 = [
-    { link: "About  Us",  url: "/about-us"},
-    { link: "Contact Us",  url: "/about-us"},
-    { link: "Our Gallery",  url: "/about-us"},
-    { link: "Our Team",  url: "/about-us"}
+    { link: "About  Us",  url: ""},
+    { link: "Contact Us",  url: ""},
+    { link: "Our Team",  url: ""}
 ]
 
 const footerCol2 = [
-    { link: "Mobile App" ,  url: "/about-us" },
-    { link: "Web Services" ,  url: "/about-us" },
-    { link: "Ui/Ux Design" ,  url: "/about-us" },
-    { link: "Academy", url: "/about-us" },
+    { link: "Mobile App" ,  url: "" },
+    { link: "Web Services" ,  url: "" },
+    { link: "Ui/Ux Design" ,  url: "" },
+    { link: "Academy", url: "" },
 ]
 
 const socialIcon = [
@@ -33,7 +32,8 @@ const Footer = () => {
 
                         <div className = "address">
                             <p>Office: Sylhet, Bangladesh</p>
-                            <p>Call us: +8801710348557</p>
+                            <a href="mailto: algobind@gmail.com" className="text-decoration-none text-white">Email: algobind@gmail.com</a> <br/>
+                            <a href="tel:+8801710348557" className="text-decoration-none text-white">WhatsApp: +88 01710348557</a>
                         </div>
                         <div className = "pb-5 icon">
                             {socialIcon.map((item) => (

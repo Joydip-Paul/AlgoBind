@@ -1,6 +1,4 @@
 import React from 'react';
-import Banner from '../Shared/Banner/Banner';
-import banner from '../../images/banner.jpg';
 import Fade from 'react-reveal/Fade';
 import './Contact.css';
 import { useForm, ValidationError } from '@formspree/react';
@@ -14,13 +12,9 @@ const Contact = () => {
     }
     return (
         <div id="contact" className="py-5">
-            {/* <Banner
-                bannerImg={banner}
-                bannerTitle="Contact"
-            /> */}
 
             <div className="text-center">
-                <h1 className="themeTitle">GOT ANY IDEA?</h1>
+                <h1 className="themeTitle pt-5">GOT ANY IDEA?</h1>
                 <h3>BUILD WITH US</h3>
             </div>
             <div className="row  border-dark py-5 mx-auto d-flex justify-content-center">

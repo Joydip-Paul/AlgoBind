@@ -3,7 +3,6 @@ import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import './Home.css';
 import computer from '../../images/macBook1.png';
 import Fade from 'react-reveal/Fade';
-import Flash from 'react-reveal/Flash';
 
 const Focus = () => {
     return (

@@ -3,7 +3,6 @@ import web1 from '../../images/web.png';
 import web2 from '../../images/web2.png';
 import './Portfolio.css';
 import Fade from 'react-reveal/Fade';
-import Flash from 'react-reveal/Flash';
 const WebData = [
     { img: web1, title: "Joydip App" },
     { img: web2, title: "Joydip App" },

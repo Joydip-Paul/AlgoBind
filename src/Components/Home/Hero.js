@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-// import HomeHero from '../../images/hero1.jpg';
 import Fade from 'react-reveal/Fade';
 import Flash from 'react-reveal/Flash';
 import { Link } from 'react-router-dom';
@@ -8,7 +7,6 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
     return (
         <div className="HomeHero">
-            {/* <img src={HomeHero} alt="" /> */}
             <div className="hero-content">
                 <Fade top>
                     <h1>High Quality IT Service</h1>
